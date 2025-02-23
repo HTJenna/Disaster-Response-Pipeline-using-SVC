@@ -1,6 +1,7 @@
 # Disaster-Response-Pipeline-using-SVC
 
 1) Description of the Project
+   
 This research uses Natural Language Processing (NLP) techniques to categorize texts sent during a crisis. Every communication will be examined and assigned to one of 36 distinct categories, including those pertaining to missing persons, complaints of infrastructure damage, or calls for medical assistance. By guaranteeing that every message is routed to the proper response team, this thorough classification will aid in expediting emergency response activities.
 
     The first step was to clean the data and store it in a database table. We then used the data to train a classifier 
