@@ -58,17 +58,17 @@ The first step was to clean the data and store it in a database table. We then u
 3) Running the project
 Root Directory:
  - App
-   - templates
    - go.html: Renders the model output
    - master.html: index of webapp, renders graphs
    - run.py: houses flask app, and initialises web app
+   - templates
  - Data
    - categories.csv: category data
-   - messages.csv: messages data
    - Disaster.db: SQLite DB to save data
+   - messages.csv: messages data
    - process_data.py: executed file to clean and save data
  - Models
-   - train_classifier: trains and saves the classifier model
+   - train_classifier.py: trains and saves the classifier model
   
 4) To execute the project a terminal is used. Install all the necessary packages in your environment. To run the project, follow these steps
  
