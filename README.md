@@ -6,8 +6,6 @@ The project uses Natural Language Processing (NLP) techniques to categorize text
 
 The first step was to clean the data and store it in a database table. We then used the data to train a classifier model after it has been saved, using grid search to choose the best hyperparameters. The model was be stored for further use when it has been trained. Lastly, a web application will be created to show training data visualizations and identify new messages.
 
-
-- genre
 - related
 - request
 - offer
