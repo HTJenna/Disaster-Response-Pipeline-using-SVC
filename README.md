@@ -1,6 +1,6 @@
 # Disaster-Response-Pipeline-using-SVC
 
-1. Description of the Project
+1) Description of the Project
 This research uses Natural Language Processing (NLP) techniques to categorize texts sent during a crisis. Every communication will be examined and assigned to one of 36 distinct categories, including those pertaining to missing persons, complaints of infrastructure damage, or calls for medical assistance. By guaranteeing that every message is routed to the proper response team, this thorough classification will aid in expediting emergency response activities.
 
     The first step was to clean the data and store it in a database table. We then used the data to train a classifier 
@@ -45,7 +45,7 @@ This research uses Natural Language Processing (NLP) techniques to categorize te
      - other_weather
      - direct_report
 
-    3) Project Libraries
+    2) Project Libraries
         - flask: Framework use in developing the web applications.
         - Linear Support Vector machine: Machine learning package that includes the classifier for model training.
         - nltk: Employed for tokenizing and processing text data for model training.
@@ -55,7 +55,7 @@ This research uses Natural Language Processing (NLP) techniques to categorize te
         - sklearn: Machine learning package used for training and enhancing the model.
         - SQLalchemy: Utilized for querying the database and storing data.
       
-    4) Running the project
+    3) Running the project
        Root Directory:
         - App
           - templates
@@ -70,7 +70,7 @@ This research uses Natural Language Processing (NLP) techniques to categorize te
         - Models
           - train_classifier: trains and saves the classifier model
          
-     5) To execute the project a terminal is used. Install all the necessary packages in your environment. To run the project, follow these steps
+     4) To execute the project a terminal is used. Install all the necessary packages in your environment. To run the project, follow these steps
         
           a. Run the command to run the ETL pipeline to clean data and save it into the DB.
         
