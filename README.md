@@ -74,11 +74,11 @@ Root Directory:
  
    a. Run the command to run the ETL pipeline to clean data and save it into the DB.
  
-     - python3 data/process_data.py data/messages.csv data/categories.csv data/DisasterResponse.DB
+     - python3 data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
  
    b. Run the command to run the classifier and save the model.
  
-     - python3 models/train_classifier.py data/DisasterResponse.DB models/new_best_model.plk
+     - python3 models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 
    c. Run the command to view the APP and classify messages
 
