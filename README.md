@@ -71,7 +71,15 @@ This research uses Natural Language Processing (NLP) techniques to categorize te
       - train_classifier: trains and saves the classifier model
      
  5) To execute the project a terminal is used. Install all the necessary packages in your environment. To run the project, follow these steps
+    
       a. Run the command to run the ETL pipeline to clean data and save it into the DB.
+    
         - python3 data/process_data.py data/messages.csv data/categories.csv data/DisasterResponse.DB
+    
       b. Run the command to run the classifier and save the model.
+    
         - python3 models/train_classifier.py data/DisasterResponse.DB models/new_best_model.plk
+
+      c. Run the command to view the APP and classify messages
+
+        - python3 app/run.py 
