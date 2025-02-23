@@ -56,10 +56,10 @@ The first step was to clean the data and store it in a database table. We then u
 3) Running the project
 Root Directory:
  - App
-   - go.html: Renders the model output
-   - master.html: index of webapp, renders graphs
    - run.py: houses flask app, and initialises web app
    - templates
+      - go.html: Renders the model output
+      - master.html: index of webapp, renders graphs
  - Data
    - categories.csv: category data
    - Disaster.db: SQLite DB to save data
