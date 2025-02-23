@@ -1,4 +1,4 @@
-# Disaster-Response-Pipeline-using-SVC
+# Disaster-Response-Pipeline
 
    1)Description of the Project
    
