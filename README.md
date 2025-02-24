@@ -82,6 +82,8 @@ Root Directory:
 
      - python3 app/run.py 
 
+5) Model Perfomance
+We utilized a Linear Support Vector Machine (SVM) classifier for our model, achieving an impressive accuracy rate of 95%. This high level of accuracy demonstrates the effectiveness of the SVM in correctly classifying the data
 
 
        
